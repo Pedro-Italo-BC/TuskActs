@@ -1,0 +1,73 @@
+main {
+  display: flex;
+  grid-area: main;
+  background-color: #303030;
+}
+
+.fatherCard {
+  height: 690px;
+  width: 555px;
+  border: solid 1px;
+}
+
+.theSonCard {
+  width: 533px;
+  height: 669px;
+  background-color: rgb(243, 217, 126);
+  box-shadow: inset 0px 0px 10px 0px black;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bgCardColor {
+  background-color: rgb(234, 236, 134);
+}
+
+.fatherPicture {
+  width: 494px;
+  height: 312px;
+  background-color: rgb(255, 122, 0, 12%);
+  margin-top: 23px;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  width: 466px;
+  height: 287px;
+}
+
+.tuskAct1Image {
+  background-image: url('../Images/TuskAct1Picture.svg');
+  background-repeat: no-repeat;
+}
+.tuskAct2Image {
+  background-image: url('../Images/TuskAct2Picture.svg');
+  background-repeat: no-repeat;
+}
+.tuskAct3Image {
+  background-image: url('../Images/TuskAct3Picture.svg');
+  background-repeat: no-repeat;
+}
+.tuskAct4Image {
+  background-image: url('../Images/TuskAct4Picture.svg');
+  background-repeat: no-repeat;
+}
+.textContet {
+  height: 280px;
+  width: 466px;
+  background-color: white;
+  margin-top: 33px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: start;
+}
+#contentText {
+  font-size: 36px;
+}
+#contentTextFather {
+  height: 122px;
+  width: 380px;
+  text-align: center;
+  margin-top: 47px;
+}

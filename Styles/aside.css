@@ -1,0 +1,26 @@
+aside {
+  grid-area: aside;
+  background-color: #303030;
+}
+
+aside > nav {
+  height: 90%;
+  width: 90%;
+}
+
+aside > nav button {
+  height: 100px;
+  gap: 10px;
+  font-size: 45px;
+  color: white;
+  background-color: #282828;
+  border: none;
+}
+
+aside > nav button:hover {
+  background-color: #3a3a3a;
+}
+
+aside > nav button:active {
+  background-color: purple;
+}
